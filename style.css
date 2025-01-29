@@ -9,3 +9,144 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-left {
+  margin: 20px;
+}
+
+.container-right {
+  margin: 20px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#pendu {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#support {
+  position: relative;
+  width: 50px;
+  height: 200px;
+}
+
+#poteau {
+  width: 10px;
+  height: 100%;
+  background-color: brown;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#poteau-top {
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: brown;
+}
+
+#corde {
+  width: 2px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  left: 90px;
+  top: 0;
+}
+
+#tete {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 85px;
+  top: 40px;
+  display: none;
+}
+
+#torse {
+  width: 20px;
+  height: 80px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  left: 85px;
+  top: 65px;
+  display: none;
+}
+
+#bras-gauche {
+  width: 5px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  left: 76px;
+  top: 65px;
+  transform: rotate(25deg);
+  display: none;
+}
+
+#bras-droit {
+  width: 5px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  left: 105px;
+  top: 65px;
+  transform: rotate(-15deg);
+  display: none;
+}
+
+#jambe-gauche {
+  width: 8px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  left: 80px;
+  top: 130px;
+  transform: rotate(15deg);
+  display: none;
+}
+
+#jambe-droite {
+  width: 8px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  left: 100px;
+  top: 130px;
+  transform: rotate(-15deg);
+  display: none;
+}
+
+.visible {
+  display: block;
+}
